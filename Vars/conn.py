@@ -1,10 +1,10 @@
 #imports
 import mysql.connector as MC
 #variables
-host = "192.168.1.90"
-pwd = "123Lion!@#"
-usrname = "Veer"
-db = "pollution"
+host = "ip to MySQL server"
+pwd = "pwd to MySQL server"
+usrname = "MySQL username"
+db = "Database"
 auplug = "mysql_native_password"
 #connection
 conn = MC.connect(
